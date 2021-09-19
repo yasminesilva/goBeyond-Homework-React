@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.div-imagem-header{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.div-imagem-header img{
+  width: 100%;
+}
+
+#imagem-perfil{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: -50px;
+  border: 5px solid #fff;
+}
+
+.nome{
+  font-size: 24px;
+}
+
+.descricao{
+  font-weight: 300;
+  font-size: 16px;
+}
+
+@media (min-width: 1024px){
+  .App {
+    margin: 20px 100px;
+  }
+  .div-imagem-header {
+    height: 220px;
+  }
+}
+
