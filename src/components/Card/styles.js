@@ -25,4 +25,19 @@ export const StyledCard = styled.a`
         margin-top: -30px;
         margin-left: 10px;
     }
+
+    :hover {
+        transform: translateY(-10px);
+    }
+
+    @keyframes fadeInUp {
+        0% {
+            opacity:0;
+            transform:translateY(20px)
+        }
+        100% {
+            opacity:1;
+            transform:translateY(0);
+        }
+    }
 `
