@@ -1,6 +1,15 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .div-imagem-header{
@@ -31,12 +40,108 @@
   font-size: 16px;
 }
 
+.contatos {
+  z-index: 10;
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-contatos {
+  background: #fff;
+  width: calc(100% - 60px);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.div-contatos .link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.div-contatos .link .MuiSvgIcon-root {
+  width: 30px;
+  fill: #000;
+}
+
+.div-contatos .link .texto {
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.abas {
+  width: 100%;
+}
+
+.div-abas{
+  width: 100%;
+  overflow: hidden;
+}
+
+.div-abas-titulos{
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.abas-titulos{
+  display: flex;
+  background: #e1e1e1;
+  margin: 0px auto;
+  border-radius: 10px;
+  border-bottom: none;
+  width: fit-content;
+}
+
+.abas-titulos button {
+  background: #e1e1e1;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: .3s ease-in-out;
+  white-space: nowrap;
+  border-radius: 10px;
+  color: #818181;
+  outline: none;
+  border: none;
+}
+
+.abas-titulos button:hover {
+  background: #c6c6c6;
+}
+
+.abas-titulos button.selecionado{
+  background: #000;
+  color: #fff;
+}
+
+.aba-conteudo{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
 @media (min-width: 1024px){
   .App {
     margin: 20px 100px;
   }
   .div-imagem-header {
     height: 220px;
+  }
+  .contatos {
+    width: 400px;
+    position: static;
+    margin-top: 20px;
   }
 }
 
