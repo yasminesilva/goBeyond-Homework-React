@@ -14,9 +14,9 @@ import fotoHarrypotter from  "./assets/harry-potter.jpg";
 import fotoSebeber from  "./assets/se-beber-nao-case.jpg";
 import fotoMatrix from  "./assets/matrix.jpg";
 import fotoReact from  "./assets/react.png";
-import fotoStyled from  "./assets/style-components.jpg";
-import fotoMaterialIcons from  "./assets/material-icons.png";
-import fotoUseState from  "./assets/react-banner.jpeg";
+import fotoStyled from  "./assets/styled-components.png";
+import fotoMaterialIcons from  "./assets/material.jpg";
+import fotoUseState from  "./assets/react-hooks.png";
 
 import Card from "./components/Card";
 
